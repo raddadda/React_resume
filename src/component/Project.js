@@ -9,7 +9,7 @@ import Second from './Second';
 export default function Project(props){
 
     // const [scrollHandle, setScrollHandle] = useState(false);
-    console.log(props.props);
+    //console.log(props.props);
     // if(props.props >=2800){
     //     //console.log(123);
     //     setScrollHandle(true);
