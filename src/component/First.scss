@@ -1,0 +1,246 @@
+.one-img{
+    height: 100%;
+    width: 55%;
+    background-color: rgb(228, 228, 228);
+    background-image: url("../img/projectImg2.jpg");
+    background-size: cover;
+    img{
+        
+        width: 100%;
+        margin-top: 25%;
+
+    }
+
+}
+.mount1{
+    animation: 0.7s ease-in-out smoothAppear;
+}
+.unmount{
+    animation: 0.7s ease-in-out smoothDisappear;
+}
+@keyframes smoothAppear {
+    from {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+@keyframes smoothDisappear{
+    from {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    to {
+      opacity: 0;
+      transform: translateY(50%);
+    }
+}
+.btn-box{
+    width: 50%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+   
+    // top: 35%;
+    .btn{
+        width: 50px;
+        height: 25px;
+        background-color: rgb(205, 205, 205);
+        border: solid rgb(255, 255, 255) 2px;
+        margin: 10px;
+        transition: 0.5s;
+    }
+    
+}
+
+.one-img-button{
+    margin: 100px;
+}
+.one-info{
+    z-index: 101;
+    height: 35%;
+    margin: 300px 50px;
+    width: 45%;
+    color: white;
+    border-top: solid white;
+
+    div{
+        font-size: 500%;
+        font-weight: 100;
+    }
+    p{
+        font-size: 400%;
+        margin-top: 0;
+        font-family: TAEBAEKfont;
+        
+    }
+    .one-text{
+        font-size: 100%;
+        margin-bottom: 20px;
+    }
+    .more{
+        button{
+            padding: 10px 40px;
+            font-size: 40%;
+            text-decoration-line:none;
+            color: rgb(168, 168, 168);
+            background-color: white;
+            border: solid white 2px;
+            transition: 0.5s;
+            
+            .more-1{
+                font-size: 40%;
+    
+            }
+    
+        }
+    
+        button:hover{
+            color: white;
+            transition: 0.5s;
+            background-color: rgb(168, 168, 168);
+            
+    
+        }
+    }
+
+   
+}
+
+.mount2{
+    animation: 0.7s ease-in-out smoothAppear2;
+}
+.unmount2{
+    animation: 0.7s ease-in-out smoothDisappear2;
+}
+//모바일
+@media ( max-width: 1260px ) {
+    .one-img{
+     
+        img{
+          
+          margin-top: 40%;
+        }
+    }
+}
+//모바일
+@media ( max-width: 782px ) {
+    .one-img{
+        display: flex;
+        height: 45%;
+        width: 100%;
+        background-color: rgb(228, 228, 228);
+        background-image: url("../img/projectImg2.jpg");
+        background-size: cover;
+        img{
+            
+            width: 500px;
+            margin: auto;
+    
+        }
+    
+    }
+    .btn-box{
+        height: 100px;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        bottom: 0;
+        .btn{
+            width: 50px;
+            height: 25px;
+            background-color: rgb(205, 205, 205);
+            border: solid rgb(255, 255, 255) 2px;
+            margin: 10px;
+            
+        }
+    }
+    .one-info{
+        height: 100%;
+        margin: 50px 0px;
+        width: 100%;
+        color: white;
+        border-top: solid white;
+        div{
+            font-size: 500%;
+            font-weight: 100;
+        }
+        p{
+            font-size: 300%;
+             margin: 5px;
+        
+            font-family: TAEBAEKfont;
+        }
+        .one-text{
+            font-size: 100%;
+            margin-bottom: 0px;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        .more{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            button{
+            
+                padding: 10px 40px;
+                font-size: 40%;
+                text-decoration-line:none;
+                color: rgb(168, 168, 168);
+                background-color: white;
+                border: solid white 2px;
+                transition: 0.5s;
+                margin-top: 10px;
+                .more-1{
+                    
+                    font-size: 40%;
+        
+                }
+        
+            }
+        }
+
+
+       
+    }
+}
+@media ( max-width: 500px ) {
+    .one-img{
+
+        img{
+            
+            width:100%;
+            margin: auto;
+    
+        }
+    
+    }
+}
+
+@keyframes smoothAppear2 {
+    from {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+}
+@keyframes smoothDisappear2{
+    from {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    to {
+      opacity: 0;
+      transform: translateX(50%);
+    }
+}

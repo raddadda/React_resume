@@ -1,0 +1,318 @@
+
+.skills_container{
+    background-image: url("../img/skillsImg.jpg");
+    background-size: cover;
+    position: relative;
+    display: flex;
+    background-color: rgb(237, 237, 237);
+    width: 100%;
+    height: 1000px;
+    
+    .skills-title{
+        width: 15%;
+        height: 100%;
+        line-height: 100px;
+        text-align: center;
+        font-size: 100%;
+        margin: auto 0;
+        // transform: rotate(270deg);
+        div{
+            // transform: rotate(270deg);
+            // background-color: antiquewhite;
+            
+        }
+    }
+    .skills-wrap{
+        width: 85%;
+        margin: 0 auto;
+        .box{
+            display: inline-block;
+            margin:50px 20px;
+            height: 300px;
+            border-top: solid black 2px;
+           
+            div{
+                font-size: 500%;
+               // font-family: paybooc-Bold;
+                font-weight: 100;
+            }
+            p{
+                font-size: 400%;
+                margin-top: 0;
+                font-family: TAEBAEKfont;
+                
+            }
+            span{
+                
+            }
+            
+        }
+        .one{
+            width: 30%;
+            flex:1;
+            margin-right: 150px;
+            
+        }
+        .two{
+            width: 30%;
+            flex:1;
+            margin-right: 150px;
+        }
+        .three{
+            width: 30%;
+            flex:1;
+            margin-top: 50px;
+            margin-left: 150px;
+        }
+        .four{
+            width: 30%;
+            flex:1;
+            margin-top: 50px;
+            margin-left: 150px;
+        }
+    }
+
+       
+
+    
+
+
+
+}
+//모바일
+@media ( max-width: 1300px ) {
+
+    .skills_container{
+        position: relative;
+        display: flex;
+        background-color: rgb(237, 237, 237);
+        width: 100%;
+        height: 1000px;
+        
+        .skills-title{
+          
+            line-height: 100px;
+            text-align: center;
+            font-size: 100%;
+        }
+        .skills-wrap{
+            
+            margin: 0 auto;
+            .box{
+                display: inline-block;
+                margin:50px 20px;
+                height: 300px;
+                border-top: solid black 2px;
+               
+                div{
+                    font-size: 500%;
+                   // font-family: paybooc-Bold;
+                    font-weight: 100;
+                }
+                p{
+                    font-size: 400%;
+                    margin-top: 0;
+                    font-family: TAEBAEKfont;
+                    
+                }
+                span{
+                    
+                }
+                
+            }
+            .one{
+                width: 30%;
+                flex:1;
+                margin-right: 100px;
+                
+            }
+            .two{
+                width: 30%;
+                flex:1;
+                margin-right: 100px;
+            }
+            .three{
+                width: 30%;
+                flex:1;
+                margin-top: 50px;
+                margin-left: 100px;
+            }
+            .four{
+                width: 30%;
+                flex:1;
+                margin-top: 50px;
+                margin-left: 100px;
+            }
+        }
+    
+           
+    
+        
+    
+    
+    
+    }
+
+}
+@media ( max-width: 1000px ) {
+
+    .skills_container{
+        position: relative;
+        display: flex;
+        background-color: rgb(237, 237, 237);
+        width: 100%;
+        height: 1000px;
+        justify-content: center;
+        text-align: center;
+        .skills-title{
+          
+            line-height: 100px;
+            
+            font-size: 100%;
+        }
+        .skills-wrap{
+
+            margin: 0 auto;
+            .box{
+                display: inline-block;
+                margin:50px 0px;
+                height: 300px;
+                border-top: solid black 2px;
+               
+                div{
+                    font-size: 500%;
+                   // font-family: paybooc-Bold;
+                    font-weight: 100;
+                }
+                p{
+                    font-size: 400%;
+                    margin-top: 0;
+                    font-family: TAEBAEKfont;
+                    
+                }
+                span{
+                    
+                }
+                
+            }
+            .one{
+                width: 35%;
+                flex:1;
+                margin-right: 10px;
+                
+            }
+            .two{
+                width: 35%;
+                flex:1;
+                margin-right: 10px;
+            }
+            .three{
+                width: 35%;
+                flex:1;
+                margin-top: 50px;
+                margin-right: 10px;
+            }
+            .four{
+                width: 35%;
+                flex:1;
+                margin-top: 50px;
+                margin-right: 10px;
+            }
+        }
+    
+           
+    
+        
+    
+    
+    
+    }
+}
+
+@media ( max-width: 782px ) {
+
+    .skills_container{
+        position: relative;
+        display: flex;
+        background-color: rgb(237, 237, 237);
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        text-align: center;
+        .skills-title{
+            position: absolute;
+            line-height: 100px;
+            margin: 0 auto;
+            font-size: 200%;
+        }
+        .skills-wrap{
+
+            margin: 0 auto;
+            .box{
+                display: inline-block;
+                margin:20px 0px;
+                height: 100px;
+                border-top: solid black 2px;
+               
+                div{
+                    font-size: 500%;
+                   // font-family: paybooc-Bold;
+                    font-weight: 100;
+                }
+                p{
+                    font-size: 400%;
+                    margin-top: 0;
+                    font-family: TAEBAEKfont;
+                    
+                }
+                span{
+                    
+                }
+                
+            }
+            .one{
+                width: 70%;
+                flex:1;
+                margin-top: 100px;
+                margin-right: 10px;
+                
+            }
+            .two{
+                width: 70%;
+                flex:1;
+                margin-right: 10px;
+            }
+            .three{
+                width: 70%;
+                flex:1;
+                margin-top: 50px;
+                margin-right: 10px;
+            }
+            .four{
+                width: 70%;
+                flex:1;
+                margin-top: 50px;
+                margin-right: 10px;
+            }
+        }
+    
+           
+    
+        
+    
+    
+    
+    }
+}
+@font-face {
+    font-family: 'paybooc-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TAEBAEKfont';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}

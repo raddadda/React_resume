@@ -1,0 +1,102 @@
+
+.main-img{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+
+    background-image: url("../img/mainImg3.jpg");
+    background-size: cover;
+    z-index: -1;
+}
+
+svg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #eee;
+}
+
+
+@keyframes line-width {
+    50%{
+        width: 100px;
+    }
+    
+}
+.main-container{
+    
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 900px;
+    
+    background-color: rgba(0, 0, 0, 0.409);
+    .main-title{
+      // position: absolute;
+        
+     
+        // top:25%;
+        // left:25%;
+        font-size: 300%;
+        color: rgb(255, 255, 255);
+        font-family: OAGothic-ExtraBold;
+        margin: auto;
+        // text-align: center;
+    }
+    span{
+        position: absolute;
+        color: rgb(255, 255, 255);
+        font-family: OAGothic-ExtraBold;
+        animation: textblink 1s step-end infinite ;
+    }
+   
+    @keyframes textblink {
+        50%{
+            opacity: 0;
+        }
+    }
+    
+}
+//모바일
+@media ( max-width: 800px ) {
+    .main-container{
+
+        .main-title{
+            font-size: 200%;
+        }
+        span{
+
+        }
+       
+        
+    }
+
+}
+@media ( max-width: 600px ) {
+    .main-container{
+
+        .main-title{
+            font-size: 100%;
+        }
+        span{
+
+        }
+       
+        
+    }
+
+}
+//title 고딕
+@font-face {
+    font-family: 'OAGothic-ExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/OAGothic-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+//about 궁서
+@font-face {
+    font-family: 'JeonjuCraftMjB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/JeonjuCraftMjB.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
