@@ -40,8 +40,7 @@ function App() {
 
   return (
       <>
-      {/* <div className={scrollPosition > 100 ? "circle" : "circle"}>스크롤되면 색이 변합니다!</div> */}
-      <div className='wrap'>
+        <div className='wrap'>
       {/* <span className="material-symbols-outlined">menu</span> */}
         <div className='manu' >
           {mobile ?  <div>
