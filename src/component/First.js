@@ -207,7 +207,7 @@ const First = (props)=>{
             </div>
             <div className="more"> 
                 <button>
-                    <div className="more-1">MoreView</div>
+                    <div className="more-1"><a href="https://precious-sawine-3a90c9.netlify.app/">MoreView</a></div>
                 </button>
             </div>         
 
@@ -228,7 +228,7 @@ const First = (props)=>{
             </div>
             <div className="more"> 
                 <button>
-                    <div className="more-1">MoreView</div>
+                    <div className="more-1"><a href="http://15.164.68.202/">MoreView</a></div>
                 </button>
             </div>         
 

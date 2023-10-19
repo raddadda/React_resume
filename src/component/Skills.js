@@ -28,7 +28,10 @@ export default function Skills(){
                         <div>03</div>
                         <p>Node.js</p>
                         <span>
-                            javascript로 CRUD와 Socket를 활용한 개발 경험이 있습니다.
+                            javascript로 CRUD와 Socket를 활용한 웹사이트를 만든 경험이 있습니다.
+                            {/* <br/>
+                            그리고 react를 활용하여 포 */}
+                            
                         </span>
                     </div>
                     <div className="box four">
@@ -36,6 +39,9 @@ export default function Skills(){
                         <p>MySQL</p>
                         <span>
                             mysql로 데이터베이스를 설계한 경험이 있습니다.
+                            {/* <br/>
+                            그리고 AWS를 통해 배포한 경험이 있습니다.  */}
+
                         </span>
                     </div>
                     </div>
