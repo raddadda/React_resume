@@ -16,6 +16,15 @@ svg{
     background-color: #eee;
 }
 
+// @keyframes bright {
+//     from{
+//         -webkit-filter: brightness(0.30);filter: brightness(0.30);
+//     }to{
+//         -webkit-filter: brightness(1);filter: brightness(1);
+//     }
+
+    
+// }
 
 @keyframes line-width {
     50%{
@@ -24,12 +33,11 @@ svg{
     
 }
 .main-container{
-    
+   
     position: relative;
     display: flex;
     width: 100%;
     height: 900px;
-    
     background-color: rgba(0, 0, 0, 0.409);
     .main-title{
       // position: absolute;
@@ -39,14 +47,16 @@ svg{
         // left:25%;
         font-size: 300%;
         color: rgb(255, 255, 255);
-        font-family: OAGothic-ExtraBold;
+        font-family: MBC1961GulimM;
         margin: auto;
         // text-align: center;
     }
     span{
         position: absolute;
         color: rgb(255, 255, 255);
-        font-family: OAGothic-ExtraBold;
+        //font-family: OAGothic-ExtraBold;
+        font-weight: 100;
+        
         animation: textblink 1s step-end infinite ;
     }
    
@@ -76,7 +86,7 @@ svg{
     .main-container{
 
         .main-title{
-            font-size: 100%;
+            font-size: 130%;
         }
         span{
 
@@ -98,5 +108,18 @@ svg{
     font-family: 'JeonjuCraftMjB';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/JeonjuCraftMjB.woff2') format('woff2');
     font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PartialSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/PartialSansKR-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MBC1961GulimM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/MBC1961GulimM.woff2') format('woff2');
+    font-weight: normal;
     font-style: normal;
 }

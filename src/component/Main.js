@@ -1,6 +1,7 @@
 import './Main.scss';
 import {useEffect,useState} from 'react';
 import React, {useRef} from 'react'
+import TypingText from './TypingText';
 export default function Main(){
     const mainTextWord = 'Back-end 최영찬의 포트폴리오'
     const [mainTitle,setMainTitle] = useState('');
@@ -56,8 +57,8 @@ export default function Main(){
             <div className='main-img'></div>
             <div className='main-container'>
                 
-                    <div className='main-title'>{mainTitle}<span>|</span></div>
-
+                    {/* <div className='main-title'>{mainTitle}<span>|</span></div> */}
+                <TypingText></TypingText>
 
             </div>
         </>

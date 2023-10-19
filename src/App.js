@@ -28,7 +28,8 @@ function App() {
   const goToProjectButton = () =>{goToProject.current?.scrollIntoView({behavior:'smooth'});}
   const goToContactButton = () =>{goToContact.current?.scrollIntoView({behavior:'smooth'});}
 
-  const mobileButton = () => {
+  const mobileButton = (event) => {
+    event.currentTarget.classList.toggle('active-1');
     if(mobile){
       setMobile(false);
     }else{
@@ -36,41 +37,57 @@ function App() {
     }
     console.log(mobile);
   }
-    
+
 
   return (
       <>
-        <div className='wrap'>
+        <div className='wrap' style={{transition: '0.5s'}}>
+        <div className='page-ani'></div>
+
       {/* <span className="material-symbols-outlined">menu</span> */}
         <div className='manu' >
+        <a className="menu-trigger"  onClick={mobileButton}>
+  <span style={scrollPosition>1200? {backgroundColor:'black',transition: '0.5s'} : {backgroundColor:'white',transition: '0.5s'}}></span>
+  <span style={scrollPosition>1200? {backgroundColor:'black',transition: '0.5s'} : {backgroundColor:'white',transition: '0.5s'}}></span>
+  <span style={scrollPosition>1200? {backgroundColor:'black',transition: '0.5s'} : {backgroundColor:'white',transition: '0.5s'}}></span>
+</a>
           {mobile ?  <div>
-            
-              <span className={`material-symbols-outlined`} style={scrollPosition>900? {color:'black'} : {color:'white'}} onClick={mobileButton}>menu</span>
-              <div className='mobile'>
+
+              {/* <span className={`material-symbols-outlined`} style={scrollPosition>900? {color:'black',transition: '0.5s'} : {color:'white',transition: '0.5s'}} onClick={mobileButton}>menu</span> */}
+              <div className='mobile' >
               <ul>
-            <li onClick={goToMainButton}>home</li>
+            <li onClick={goToMainButton}>Home</li>
             <li onClick={goToAboutButton}>About me</li>
             <li onClick={goToSkillsButton}>Skills</li>
             <li onClick={goToProjectButton}>Project</li>
             <li onClick={goToContactButton}>Contact</li>
-        </ul>
+            </ul>
               </div>
             </div>
           :
-            
-          <div><span className={`material-symbols-outlined`} style={scrollPosition>900? {color:'black'} : {color:'white'}} onClick={mobileButton} >menu</span></div>
+            <></>
+          // <div> <span className={`material-symbols-outlined`} style={scrollPosition>900? {color:'black',transition: '0.5s'} : {color:'white',transition: '0.5s'}} onClick={mobileButton} >menu</span></div>
           }
          
         </div>
-        <header  className={scrollPosition > 800 ? "header2" : "header1"}>
+        {/* <header  className={scrollPosition > 500 ? "header2" : "header1"}> */}
+        <header  className="header2">
         <ul>
-            <li onClick={goToMainButton}>home</li>
-            <li onClick={goToAboutButton}>About me</li>
-            <li onClick={goToSkillsButton}>Skills</li>
-            <li onClick={goToProjectButton}>Project</li>
-            <li onClick={goToContactButton}>Contact</li>
+            <li onClick={goToMainButton}>Home<div className='header-line1'><span></span><span></span></div></li>
+            <li onClick={goToAboutButton}>About me<div className='header-line2'><span></span><span></span></div></li>
+            <li onClick={goToSkillsButton}>Skills<div className='header-line3'><span></span><span></span></div></li>
+            <li onClick={goToProjectButton}>Project<div className='header-line4'><span></span><span></span></div></li>
+            <li onClick={goToContactButton}>Contact<div className='header-line5'><span></span><span></span></div></li>
         </ul>
+       
         </header>
+        {/* <ul cla>
+            <li ><div className='header-line1'><span></span></div></li>
+            <li ><div className='header-line2'><span></span></div></li>
+            <li ><div className='header-line3'><span></span></div></li>
+            <li ><div className='header-line4'><span></span></div></li>
+            <li ><div className='header-line5'><span></span></div></li>
+        </ul> */}
       {/* <div className="mobile">
         <div className="mobile-btn"><img src={Menu1}/></div>
         <header className={scrollPosition > 900 ? "mobile2" : "mobile1"}>
@@ -86,11 +103,11 @@ function App() {
       </div> */}
 
        
-        <div ref={goToMain}><Main></Main></div>
-        <div ref={goToAbout}><About></About></div>
-        <div ref={goToSkills}><Skills></Skills></div>
-        <div ref={goToProject}><Project></Project></div>
-        <div ref={goToContact}><Contact></Contact></div>
+        <div ref={goToMain}  ><Main></Main></div>
+        <div ref={goToAbout} ><About></About></div>
+        <div ref={goToSkills} className={scrollPosition<700? `focus-off` : 'focus-on' }><Skills></Skills></div>
+        <div ref={goToProject} ><Project props={scrollPosition}></Project></div>
+        <div ref={goToContact} ><Contact></Contact></div>
          
       </div>
       

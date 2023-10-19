@@ -2,7 +2,7 @@
     height: 100%;
     width: 55%;
     background-color: rgb(228, 228, 228);
-    background-image: url("../img/projectImg2.jpg");
+    background-image: url("../img/projectImg4.jpeg");
     background-size: cover;
     img{
         
@@ -12,6 +12,7 @@
     }
 
 }
+
 .mount1{
     animation: 0.7s ease-in-out smoothAppear;
 }
@@ -131,11 +132,12 @@
 //모바일
 @media ( max-width: 782px ) {
     .one-img{
+        position: relative;
         display: flex;
         height: 45%;
         width: 100%;
         background-color: rgb(228, 228, 228);
-        background-image: url("../img/projectImg2.jpg");
+        background-image: url("../img/projectImg4.jpeg");
         background-size: cover;
         img{
             
@@ -146,16 +148,17 @@
     
     }
     .btn-box{
+        
         height: 100px;
         width: 100%;
-        position: absolute;
+        position: relative;
         display: flex;
         align-items: center;
         justify-content: center;
-        bottom: 0;
+        bottom: -50px;
         .btn{
             width: 50px;
-            height: 25px;
+            height: 15px;
             background-color: rgb(205, 205, 205);
             border: solid rgb(255, 255, 255) 2px;
             margin: 10px;
@@ -163,12 +166,14 @@
         }
     }
     .one-info{
-        height: 100%;
-        margin: 50px 0px;
+        height: 35%;
+        margin: 0px 0px;
         width: 100%;
         color: white;
-        border-top: solid white;
-        div{
+        
+        .one-number{
+            margin-top: 50px;
+            border-top: solid white;
             font-size: 500%;
             font-weight: 100;
         }

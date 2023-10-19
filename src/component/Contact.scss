@@ -4,7 +4,7 @@
     display: flex;
     background-color:rgb(255, 255, 255);
     width: 100%;
-    height: 400px;
+    height: 400%;
    // z-index: -1;
 
    .pic{
@@ -14,7 +14,8 @@
     text-align: center;
     font-size: 400%;
     font-family: OAGothic-ExtraBold;
-    margin-top: 100px;
+    margin: auto 0;
+    //margin-top: 100px;
     div{
         // font-size: 400%;
         // text-align: center;
@@ -28,15 +29,21 @@
     //     border: solid black 1px;
     // }
    }
+   
    .contact-content{
+    display: flex;
     width: 55%;
-    height: 100%;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 100px;
-    line-height: 30px;
+    height: 300px;
+    //margin-top: 25px;
+    // margin-bottom: 25px;
+    // margin-left: 100px;
+   // line-height: 30px;
+   
     //position: absolute;
-    
+    font-family: GmarketSansMedium;
+    .contact-wrap{
+            margin: auto;
+        }
     color: rgb(0, 0, 0);
     a { text-decoration: none; color: rgb(0, 0, 0); }
     a:visited { text-decoration: none; }
@@ -51,7 +58,7 @@
     }
     span:nth-child(1) {left: 0; top: 0; width: 0; height: 5px; transition: width 0.5s;}
     // span:nth-child(2) {right: 0; top: 0; width: 5px; height: 0; transition: height 0.5s }
-    span:nth-child(3) {right: 0; bottom: 0; width: 0; height: 5px; transition: width 0.5s }
+    span:nth-child(3) {right: 0; bottom: 10px; width: 0; height: 5px; transition: width 0.5s }
     // span:nth-child(4) {left: 0; bottom: 0; width: 5px; height: 0; transition: height 0.5s }
     
     .contact-box{
@@ -60,9 +67,50 @@
     
 }
 .contact_container:hover span:nth-child(1) {width: 100%;}
-    .contact_container:hover span:nth-child(2) {height: 100%;}
+    // .contact_container:hover span:nth-child(2) {height: 100%;}
     .contact_container:hover span:nth-child(3) {width: 100%;}
-    .contact_container:hover span:nth-child(4) {height: 100%;}
+    // .contact_container:hover span:nth-child(4) {height: 100%;}
+
+// //모바일
+// @media ( max-width: 782px ) {
+//     .contact_container{
+//         position: relative;
+//         display: flex;
+//         background-color:rgb(255, 255, 255);
+//         width: 100%;
+//         height: 400px;
+//        .pic{
+//         width: 45%;
+//         height: 100%;
+//         text-align: center;
+//         font-size: 400%;
+//         font-family: OAGothic-ExtraBold;
+//         margin-top: 100px;
+        
+//         text-align: center;
+//         margin: 0 auto;
+//         width: 45%;
+//         height: 100px;
+//         div{
+//             font-size: 400%;
+//             text-align: center;
+//             font-family: OAGothic-ExtraBold;
+//         }
+
+//        }
+//        .contact-content{
+//         width: 55%;
+//         height: 300px;
+//         //margin-top: 25px;
+//         margin-bottom: 25px;
+//         margin-left: 100px;
+//         line-height: 30px;
+//         color: rgb(0, 0, 0);
+
+        
+//         }
+//     }
+// }
 
 //모바일
 @media ( max-width: 782px ) {
@@ -74,49 +122,8 @@
         height: 400px;
 
        .pic{
-        // width: 45%;
-        // height: 100%;
-        // text-align: center;
-        // font-size: 400%;
-        // font-family: OAGothic-ExtraBold;
-        // margin-top: 100px;
-        
         text-align: center;
-        margin: 0 auto;
-        width: 45%;
-        height: 100px;
-        // div{
-        //     font-size: 400%;
-        //     text-align: center;
-        //     font-family: OAGothic-ExtraBold;
-        // }
-
-       }
-       .contact-content{
-        width: 55%;
-        height: 100%;
-        margin-top: 25px;
-        margin-bottom: 25px;
-        margin-left: 100px;
-        line-height: 30px;
-        color: rgb(0, 0, 0);
-
-        
-        }
-    }
-}
-
-//모바일
-@media ( max-width: 400px ) {
-    .contact_container{
-        position: relative;
-        display: inline-block;
-        background-color:rgb(255, 255, 255);
-        width: 100%;
-        height: 400px;
-
-       .pic{
-        text-align: center;
+        line-height: 100px;
         margin: 0 auto;
         width: 45%;
         height: 100px;
@@ -130,8 +137,8 @@
        }
        .contact-content{
         width: 55%;
-        height: 100%;
-        margin-top: 25px;
+        height: 300px;
+        //margin-top: 25px;
         margin-bottom: 25px;
         margin-left: 50px;
         line-height: 30px;
@@ -140,4 +147,11 @@
         
         }
     }
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }

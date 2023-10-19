@@ -6,10 +6,14 @@ import p3 from '../img/project2.png';
 import { set } from 'react-hook-form';
 import First from './First';
 import Second from './Second';
-export default function Project(){
+export default function Project(props){
 
-
-
+    // const [scrollHandle, setScrollHandle] = useState(false);
+    console.log(props.props);
+    // if(props.props >=2800){
+    //     //console.log(123);
+    //     setScrollHandle(true);
+    // }
     return (
         <>
             <div className="project_container">
@@ -18,7 +22,8 @@ export default function Project(){
                 </div>
                 
                 <div className='box'>
-                    <First></First>  
+                    {/* {props.props >=2000 ?   <First props2={props.props}></First>   :<></>} */}
+                    <First props2={props.props}></First>
                 </div>
             </div>
         </>
