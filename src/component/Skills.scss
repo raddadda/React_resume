@@ -7,7 +7,7 @@
 
     background-color: rgb(237, 237, 237);
     width: 100%;
-    height: 1000px;
+    height: 500px;
     
     .skills-title{
         width: 15%;
@@ -25,17 +25,20 @@
     }
     .skills-wrap{
 
+
         width: 85%;
-        margin: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
         .box{
             display: inline-block;
             margin:50px 20px;
-            height: 300px;
+            // height: 300px;
             border-top: solid black 2px;
            
             div{
                 font-size: 500%;
-               // font-family: paybooc-Bold;
                 font-weight: 100;
             }
             p{
@@ -52,28 +55,25 @@
         .one{
             width: 30%;
             flex:1;
-            margin-right: 150px;
+            // margin-right: 150px;
             
         }
         .two{
             width: 30%;
             flex:1;
-            margin-right: 150px;
-            p{
-               //= font-size: 3%;
-            }
+            // margin-right: 150px;
         }
         .three{
             width: 30%;
             flex:1;
-            margin-top: 50px;
-            margin-left: 150px;
+            // margin-top: 50px;
+            // margin-left: 150px;
         }
         .four{
             width: 30%;
             flex:1;
-            margin-top: 50px;
-            margin-left: 150px;
+            // margin-top: 50px;
+            // margin-left: 150px;
         }
     }
 
@@ -92,7 +92,7 @@
         display: flex;
         background-color: rgb(237, 237, 237);
         width: 100%;
-        height: 1000px;
+        height: 500px;
         
         .skills-title{
           
@@ -108,7 +108,7 @@
                 margin:50px 20px;
                 height: 300px;
                 border-top: solid black 2px;
-               
+                
                 div{
                     font-size: 500%;
                    // font-family: paybooc-Bold;
@@ -128,26 +128,29 @@
             .one{
                 width: 30%;
                 flex:1;
-                margin-right: 100px;
+                // margin-right: 100px;
                 
             }
             .two{
                 width: 30%;
                 flex:1;
-                margin-right: 100px;
+                // margin-right: 100px;
+                    p{
+                        font-size: 150%; 
+                }
          
             }
             .three{
                 width: 30%;
                 flex:1;
-                margin-top: 50px;
-                margin-left: 100px;
+                // margin-top: 50px;
+                // margin-left: 100px;
             }
             .four{
                 width: 30%;
                 flex:1;
-                margin-top: 50px;
-                margin-left: 100px;
+                // margin-top: 50px;
+                // margin-left: 100px;
             }
         }
     
@@ -167,7 +170,7 @@
         display: flex;
         background-color: rgb(237, 237, 237);
         width: 100%;
-        height: 1000px;
+        height: 500px;
         justify-content: center;
         text-align: center;
         .skills-title{
@@ -191,7 +194,7 @@
                     font-weight: 100;
                 }
                 p{
-                    font-size: 220%;
+                    font-size: 170%;
                     margin-top: 0;
                     font-family: TAEBAEKfont;
                     
@@ -212,6 +215,9 @@
                 flex:1;
                 
                 margin-right: 10px;
+                p{
+                    font-size: 150%; 
+            }
             }
             .three{
                 width: 35%;
@@ -253,8 +259,11 @@
             font-size: 200%;
         }
         .skills-wrap{
+            margin: auto;
+            display: inline;
+            // flex-wrap: wrap;
+            // justify-content: space-between;
 
-            margin: 0 auto;
             .box{
                 display: inline-block;
                 margin:20px 0px;
@@ -262,12 +271,14 @@
                 border-top: solid black 2px;
                
                 div{
-                    font-size: 500%;
+                    
+                    font-size: 200%;
                    // font-family: paybooc-Bold;
+                   //text-align: left;
                     font-weight: 100;
                 }
                 p{
-                    font-size: 250%;
+                    font-size: 150%;
                     margin-top: 0;
                     font-family: TAEBAEKfont;
                     

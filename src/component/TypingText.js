@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './TypingText.scss';
 const TypingText = () => {
-
-  let text='Back-end 최영찬의 포트폴리오';
+  
+  let text = "신입 개발자 최영찬의 포트폴리오입니다.";
   let speed = 155;
   let fontSize = '4em';
   let color='white';

@@ -7,7 +7,7 @@
     img{
         
         width: 100%;
-       // margin-top: 25%;
+        margin-top: 25%;
 
     }
 
@@ -75,15 +75,18 @@
         font-weight: 100;
     }
     p{
-        font-size: 400%;
+        font-size: 200%;
         margin-top: 0;
         font-family: TAEBAEKfont;
-        
+        div{
+            font-size: 100%;
+        }
     }
     .one-text{
         font-size: 100%;
         margin-bottom: 20px;
     }
+
     .more{
         button{
             padding: 10px 40px;

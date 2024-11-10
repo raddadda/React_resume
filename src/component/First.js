@@ -3,16 +3,21 @@ import './First.scss';
 import p1 from '../img/project1.png';
 import p2 from '../img/project2.png';
 import p3 from '../img/project3.png';
+import p4 from '../img/project4.png';
 const First = (props)=>{
     const [content,setContent]= useState(p1);
     const [mount, setMount] = useState(true);
     const [mount2, setMount2] = useState(false);
     const [mount3, setMount3] = useState(false);
+
     const [effect, setEffect] = useState('mount1');
     const [effect2, setEffect2] = useState('mount2');
+    const [effect3, setEffect3] = useState('mount3');
+
     const [click, setClick] = useState('gray');
     const [click2, setClick2] = useState('');
     const [click3, setClick3] = useState('');
+
     const [scrollPosition2, setScrollPosition2] = useState(0);
     
    //console.log(props);
@@ -73,6 +78,7 @@ const First = (props)=>{
             setContent(p1);
             setEffect('mount1');
             setEffect2('mount2');
+            setEffect3('mount3');
             setMount(true);
             setMount2(false);
             setMount3(false);
@@ -94,6 +100,7 @@ const First = (props)=>{
             setContent(p2);
             setEffect('mount1');
             setEffect2('mount2');
+            setEffect3('mount3');
             setMount(false);
             setMount2(true);
             setMount3(false);
@@ -114,6 +121,7 @@ const First = (props)=>{
             setContent(p3);
             setEffect('mount1');
             setEffect2('mount2');
+            setEffect3('mount3');
             setMount(false);
             setMount2(false);
             setMount3(true);
@@ -122,6 +130,7 @@ const First = (props)=>{
             setClick3('gray');
         }
     }
+
 
 
 
@@ -178,16 +187,23 @@ const First = (props)=>{
             
             <div className={`one-info ${effect2}`}>
             <div className="one-number">01</div>
-            <p>Shopping</p>
+            <p>알바온<div>(근태관리 웹 서비스)</div></p>
+            
             <div className="one-text">
-            <b>2022</b>년에 제작한 <b>Springboot</b>기반 쇼핑몰 웹사이트 입니다. <br/>
-                웹사이트 전체를 만들었으며 <b>Spring security</b>로 회원가입기능과
-                <b>jpa</b>를 이용해 <b>CRUD</b>를 구현했습니다. <br/>
-                데이터베이스는 <b>mariaDB</b>를 사용했습니다.
+            2023.11~2023.12 (백엔드3,프론트2 팀 프로젝트) <div></div>
+            <hr></hr>
+            <b> <span>소개 : 소규모 자영업장에서 아르바이트 직원을 관리하기 위한 HR 시스템</span><br></br><br></br>
+            • 근태,급여정산,일정관리 기능을 API로 구현<div></div>
+            • SpringSecurity + JWT 로그인 구현<div></div>
+            • 사업자와 직원의 권한에 따른 기능 세분화<div></div>
+            • 캘린더를 이용한 일정 생성,조회,수정,삭제<div></div>
+            • 출퇴근기록을 통한 한달 급여 조회(주휴수당 포함)</b>
+           
+            
             </div>
             <div className="more"> 
                 <button>
-                    <div className="more-1">MoreView</div>
+                    <div className="more-1"><a href="http://portfolioalbaon.notion.site">MoreView</a></div>
                 </button>
             </div>         
 
@@ -199,15 +215,18 @@ const First = (props)=>{
                         {mount2 ? 
             <div className={`one-info ${effect2}`}>
             <div className="one-number">02</div>
-            <p>Front Web</p>
+            <p>Chatta<div>(실시간 채팅 웹 서비스)</div></p>
             <div className="one-text">
-                <b>2023</b>년에 제작한 프론트 웹사이트입니다.<br/>
-                <b>메인화면</b>과 <b>애니메이션</b>을 담당했습니다.<br/>
-                기본적인 <b>css</b>,<b>jquery</b>를 활용하여 그리드와 스크롤이벤트를 구현했습니다.
+            2023.08~2023.09 (총 4명 팀 프로젝트) <div></div>
+            <hr></hr>
+            <b><span>소개 : 웹 소켓을 이용하여 개발한 실시간 채팅 웹 서비스</span><br></br><br></br>
+            • 유저가 채팅 채널을 생성하고 다른사람들과 실시간으로 채팅하는 서비스입니다.<div></div>
+            • 게시판의 생성,조회,수정,삭제 기능<div></div>
+            • 커서페이징 무한스크롤 조회기능<div></div></b>
             </div>
             <div className="more"> 
                 <button>
-                    <div className="more-1"><a href="https://precious-sawine-3a90c9.netlify.app/">MoreView</a></div>
+                    <div className="more-1"><a href="https://github.com/raddadda/chatta">MoreView</a></div>
                 </button>
             </div>         
 
@@ -219,16 +238,18 @@ const First = (props)=>{
                         {mount3 ? 
             <div className={`one-info ${effect2}`}>
             <div className="one-number">03</div>
-            <p>Chatta</p>
+            <p>M.M.M<div>(운동인을 위한 종합 웹 사이트)</div></p>
             <div className="one-text">
-            <b>2023</b>년에 제작한 <b>Socket</b>을 이용한 채팅웹사이트 입니다.<br/>
-                게시판의 <b>CRUD</b>와 <b>api</b>설계를 담당했습니다.<br/>
-                <b>커서기반 페이지네이션</b>으로 효율적인 게시판조회를 구현했습니다.
-                데이터베이스는 <b>mysql</b>을 사용했습니다.
+            2023.07~2023.08 (총 4명 팀 프로젝트) <div></div>
+            <hr></hr>
+            <b><span>소개 : 다양한 운동 정보와 캘린더 기능을 제공하는 웹 페이지입니다.</span><br></br><br></br>
+            • 프론트엔드를 처음 입문하며 css를 다뤄본 프로젝트입니다.<div></div>
+            • 캘린더를 이용한 투두리스트 기능<div></div>
+            • 반응형 웹으로 제작<div></div></b>
             </div>
             <div className="more"> 
                 <button>
-                    <div className="more-1"><a href="http://15.164.68.202/">MoreView</a></div>
+                    <div className="more-1"><a href="https://precious-sawine-3a90c9.netlify.app/">MoreView</a></div>
                 </button>
             </div>         
 
@@ -236,7 +257,10 @@ const First = (props)=>{
             </div>
           
             :<></>
+            
             }
+
+        
                     <div className="btn-box">
                         <button className={`btn`} style={{backgroundColor:`${click}`}} onClick={handleClickButton}></button>
                         <button className={`btn`} style={{backgroundColor:`${click2}`}}  onClick={handleClickButton2}></button>
