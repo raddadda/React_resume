@@ -11,7 +11,7 @@ export default function About(){
             <div className='about_container'>
               
             <div className='aboutme-title'>
-                <svg class="stroke-animation" viewBox="0 0 300 300" >
+                <svg className="stroke-animation" viewBox="0 0 300 300" >
                         <circle cx="150" cy="150" r="100"></circle>
                 </svg>
                 <div className="aboutme-text">about me</div>

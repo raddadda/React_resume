@@ -187,8 +187,8 @@ const First = (props)=>{
             
             <div className={`one-info ${effect2}`}>
             <div className="one-number">01</div>
-            <p>알바온<div>(근태관리 웹 서비스)</div></p>
-            
+            <p>알바온</p>
+            <p>(근태관리 웹 서비스)</p>
             <div className="one-text">
             2023.11~2023.12 (백엔드3,프론트2 팀 프로젝트) <div></div>
             <hr></hr>
@@ -215,7 +215,8 @@ const First = (props)=>{
                         {mount2 ? 
             <div className={`one-info ${effect2}`}>
             <div className="one-number">02</div>
-            <p>Chatta<div>(실시간 채팅 웹 서비스)</div></p>
+            <p>Chatta</p>
+            <p>(실시간 채팅 웹 서비스)</p>
             <div className="one-text">
             2023.08~2023.09 (총 4명 팀 프로젝트) <div></div>
             <hr></hr>
@@ -238,7 +239,8 @@ const First = (props)=>{
                         {mount3 ? 
             <div className={`one-info ${effect2}`}>
             <div className="one-number">03</div>
-            <p>M.M.M<div>(운동인을 위한 종합 웹 사이트)</div></p>
+            <p>M.M.M</p>
+            <p>(운동인을 위한 종합 웹 사이트)</p>
             <div className="one-text">
             2023.07~2023.08 (총 4명 팀 프로젝트) <div></div>
             <hr></hr>
