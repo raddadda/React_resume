@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/raddadda/React_resume.git/static/css/main.e52daf12.css",
-    "main.js": "/raddadda/React_resume.git/static/js/main.7036855a.js",
-    "static/media/skillsImg.jpg": "/raddadda/React_resume.git/static/media/skillsImg.946ad946fe819bd0906f.jpg",
-    "static/media/mainImg3.jpg": "/raddadda/React_resume.git/static/media/mainImg3.ea6325d6b37e4f4dd82d.jpg",
-    "static/media/project3.png": "/raddadda/React_resume.git/static/media/project3.10a897fe99513a64b6b1.png",
-    "static/media/project1.png": "/raddadda/React_resume.git/static/media/project1.179bbf179bd7b11ecd3f.png",
-    "static/media/project4.png": "/raddadda/React_resume.git/static/media/project4.dcfd8e453a9765f52104.png",
-    "static/media/project2.png": "/raddadda/React_resume.git/static/media/project2.f01594e8f220a69546c8.png",
-    "static/media/projectImg4.jpeg": "/raddadda/React_resume.git/static/media/projectImg4.5974f05a01a9258139b4.jpeg",
-    "index.html": "/raddadda/React_resume.git/index.html",
-    "main.e52daf12.css.map": "/raddadda/React_resume.git/static/css/main.e52daf12.css.map",
-    "main.7036855a.js.map": "/raddadda/React_resume.git/static/js/main.7036855a.js.map"
+    "main.css": "/React_resume.git/static/css/main.a3243c3e.css",
+    "main.js": "/React_resume.git/static/js/main.4a58cc25.js",
+    "static/media/skillsImg.jpg": "/React_resume.git/static/media/skillsImg.946ad946fe819bd0906f.jpg",
+    "static/media/mainImg3.jpg": "/React_resume.git/static/media/mainImg3.ea6325d6b37e4f4dd82d.jpg",
+    "static/media/project3.png": "/React_resume.git/static/media/project3.10a897fe99513a64b6b1.png",
+    "static/media/project1.png": "/React_resume.git/static/media/project1.179bbf179bd7b11ecd3f.png",
+    "static/media/project4.png": "/React_resume.git/static/media/project4.dcfd8e453a9765f52104.png",
+    "static/media/project2.png": "/React_resume.git/static/media/project2.f01594e8f220a69546c8.png",
+    "static/media/projectImg4.jpeg": "/React_resume.git/static/media/projectImg4.5974f05a01a9258139b4.jpeg",
+    "index.html": "/React_resume.git/index.html",
+    "main.a3243c3e.css.map": "/React_resume.git/static/css/main.a3243c3e.css.map",
+    "main.4a58cc25.js.map": "/React_resume.git/static/js/main.4a58cc25.js.map"
   },
   "entrypoints": [
-    "static/css/main.e52daf12.css",
-    "static/js/main.7036855a.js"
+    "static/css/main.a3243c3e.css",
+    "static/js/main.4a58cc25.js"
   ]
 }
