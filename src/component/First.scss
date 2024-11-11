@@ -1,260 +1,522 @@
+// .one-img{
+//     height: 100%;
+//     width: 55%;
+//     background-color: rgb(228, 228, 228);
+//     background-image: url("../img/projectImg4.jpeg");
+//     background-size: cover;
+//     img{
+        
+//         width: 100%;
+//         margin-top: 25%;
+
+//     }
+    
+
+// }
+
+// .mount1{
+//     animation: 0.7s ease-in-out smoothAppear;
+// }
+// .unmount{
+//     animation: 0.7s ease-in-out smoothDisappear;
+// }
+// @keyframes smoothAppear {
+//     from {
+//       opacity: 0;
+//       transform: translateY(-100%);
+//     }
+//     to {
+//       opacity: 1;
+//       transform: translateY(0);
+//     }
+// }
+// @keyframes smoothDisappear{
+//     from {
+//       opacity: 1;
+//       transform: translateY(0);
+//     }
+//     to {
+//       opacity: 0;
+//       transform: translateY(50%);
+//     }
+// }
+// .btn-box{
+//     width: 50%;
+//     position: absolute;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     bottom: 0;
+   
+//     // top: 35%;
+//     .btn{
+//         width: 50px;
+//         height: 25px;
+//         background-color: rgb(205, 205, 205);
+//         border: solid rgb(255, 255, 255) 2px;
+//         margin: 10px;
+//         transition: 0.5s;
+//     }
+    
+// }
+
+// .one-img-button{
+//     margin: 100px;
+// }
+// .one-info{
+//     z-index: 101;
+//     height: 35%;
+//     margin: 300px 50px;
+//     width: 45%;
+//     color: white;
+//     border-top: solid white;
+
+//     div{
+//         font-size: 500%;
+//         font-weight: 100;
+//     }
+//     p{
+//         font-size: 200%;
+//         margin-top: 0;
+//         font-family: TAEBAEKfont;
+//         div{
+//             font-size: 100%;
+//         }
+//     }
+//     .stack {
+//         font-size: 100%;
+//         display: flex;
+//         flex-wrap: wrap;
+//         gap: 10px; // 뱃지 간의 간격 조절
+//         margin-top: 15px;
+    
+//         .badge {
+//             display: inline-block;
+//             padding: 8px 12px;
+//             font-size: 0.9rem;
+//             font-weight: 600;
+//             color: #fff;
+//             background-color: #0073e6; // 기본 배경색
+//             border-radius: 10px; // 둥근 모서리로 뱃지 스타일
+//             text-align: center;
+    
+//             &:hover {
+//                 background-color: #005bb5; // 호버 시 색상 변경
+//             }
+//         }
+    
+
+//     }
+    
+//     .one-text{
+//         font-size: 100%;
+//         margin-bottom: 20px;
+//     }
+
+//     .more{
+//         button{
+//             padding: 10px 40px;
+//             font-size: 40%;
+//             text-decoration-line:none;
+//             color: rgb(168, 168, 168);
+//             background-color: white;
+//             border: solid white 2px;
+//             transition: 0.5s;
+            
+//             .more-1{
+//                 font-size: 40%;
+//                 a{
+//                     text-decoration: none;
+//                     color: rgb(168, 168, 168);
+//                 }
+//             }
+    
+//         }
+    
+//         button:hover{
+//             color: white;
+//             transition: 0.5s;
+//             background-color: rgb(168, 168, 168);
+            
+//             a{
+//                 color: white;
+//             }
+//         }
+//     }
+
+   
+// }
+
+// .mount2{
+//     animation: 0.7s ease-in-out smoothAppear2;
+// }
+// .unmount2{
+//     animation: 0.7s ease-in-out smoothDisappear2;
+// }
+// //모바일
+// @media ( max-width: 1260px ) {
+//     .one-img{
+     
+//         img{
+          
+//           margin-top: 40%;
+//         }
+//     }
+// }
+// //모바일
+// @media ( max-width: 782px ) {
+//     .one-img{
+//         position: relative;
+//         display: flex;
+//         height: 45%;
+//         width: 100%;
+//         background-color: rgb(228, 228, 228);
+//         background-image: url("../img/projectImg4.jpeg");
+//         background-size: cover;
+//         img{
+            
+//             width: 500px;
+//             margin: auto;
+    
+//         }
+    
+//     }
+//     .btn-box{
+        
+//         height: 100px;
+//         width: 100%;
+//         position: relative;
+//         // display: flex;
+//         // align-items: center;
+//         // justify-content: center;
+//         bottom: -50px;
+//         .btn{
+//             width: 50px;
+//             height: 15px;
+//             background-color: rgb(205, 205, 205);
+//             border: solid rgb(255, 255, 255) 2px;
+//             margin: 10px;
+            
+//         }
+//     }
+//     .one-info{
+//         height: 35%;
+//         margin: 0px 0px;
+//         width: 100%;
+//         color: white;
+        
+//         .one-number{
+//             margin-top: 50px;
+//             border-top: solid white;
+//             font-size: 200%;
+//             font-weight: 100;
+//         }
+//         p{
+//             font-size: 100%;
+//              margin: 5px;
+        
+//             font-family: TAEBAEKfont;
+//         }
+//         .one-text{
+//             font-size: 100%;
+//             margin-bottom: 0px;
+//             margin-left: 10%;
+//             margin-right: 10%;
+//             text-align: left;
+
+//         }
+//         .more{
+//             display: flex;
+//             align-items: center;
+//             justify-content: center;
+//             button{
+                
+//                 padding: 10px 40px;
+//                 font-size: 40%;
+//                 text-decoration-line:none;
+//                 color: rgb(168, 168, 168);
+//                 background-color: white;
+//                 border: solid white 2px;
+//                 transition: 0.5s;
+//                 margin-top: 10px;
+//                 .more-1{
+                    
+//                     font-size: 40%;
+        
+//                 }
+        
+//             }
+//         }
+
+
+       
+//     }
+// }
+// @media ( max-width: 500px ) {
+//     .one-img{
+
+//         img{
+            
+//             width:100%;
+//             margin: auto;
+    
+//         }
+    
+//     }
+// }
+
+// @keyframes smoothAppear2 {
+//     from {
+//       opacity: 0;
+//       transform: translateX(100%);
+//     }
+//     to {
+//       opacity: 1;
+//       transform: translateX(0);
+//     }
+// }
+// @keyframes smoothDisappear2{
+//     from {
+//       opacity: 1;
+//       transform: translateX(0);
+//     }
+//     to {
+//       opacity: 0;
+//       transform: translateX(50%);
+//     }
+// }
+
+.first-container{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    // z-index: 1000;
+    // height: 700px;
+}
 .one-img{
-    height: 100%;
-    width: 55%;
+    position: relative;
+    width: 100%;
     background-color: rgb(228, 228, 228);
     background-image: url("../img/projectImg4.jpeg");
     background-size: cover;
-    img{
-        
-        width: 100%;
-        margin-top: 25%;
-
-    }
-    
-
-}
-
-.mount1{
-    animation: 0.7s ease-in-out smoothAppear;
-}
-.unmount{
-    animation: 0.7s ease-in-out smoothDisappear;
-}
-@keyframes smoothAppear {
-    from {
-      opacity: 0;
-      transform: translateY(-100%);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-}
-@keyframes smoothDisappear{
-    from {
-      opacity: 1;
-      transform: translateY(0);
-    }
-    to {
-      opacity: 0;
-      transform: translateY(50%);
-    }
-}
-.btn-box{
-    width: 50%;
-    position: absolute;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    bottom: 0;
-   
-    // top: 35%;
-    .btn{
-        width: 50px;
-        height: 25px;
-        background-color: rgb(205, 205, 205);
-        border: solid rgb(255, 255, 255) 2px;
-        margin: 10px;
-        transition: 0.5s;
+    align-items: center; /* 세로 중앙 정렬 */
+    justify-content: center; /* 가로 중앙 정렬 */
+    img{
+        width: 500px; /* 고정 너비 */
+        height: 450px; /* 고정 높이 */
+        object-fit: cover; /* 이미지 비율을 유지하며 크기 조정 */
     }
-    
-}
-
-.one-img-button{
-    margin: 100px;
 }
 .one-info{
+    position: relative;
+    width: 100%;
     z-index: 101;
     height: 35%;
-    margin: 300px 50px;
+    margin: 150px 50px;
     width: 45%;
     color: white;
     border-top: solid white;
-
-    div{
-        font-size: 500%;
-        font-weight: 100;
-    }
-    p{
-        font-size: 200%;
-        margin-top: 0;
-        font-family: TAEBAEKfont;
-        div{
-            font-size: 100%;
-        }
-    }
-    .one-text{
-        font-size: 100%;
-        margin-bottom: 20px;
-    }
-
-    .more{
-        button{
-            padding: 10px 40px;
-            font-size: 40%;
-            text-decoration-line:none;
-            color: rgb(168, 168, 168);
-            background-color: white;
-            border: solid white 2px;
-            transition: 0.5s;
-            
-            .more-1{
-                font-size: 40%;
-                a{
-                    text-decoration: none;
-                    color: rgb(168, 168, 168);
-                }
-            }
-    
-        }
-    
-        button:hover{
-            color: white;
-            transition: 0.5s;
-            background-color: rgb(168, 168, 168);
-            
-            a{
-                color: white;
-            }
-        }
-    }
-
-   
-}
-
-.mount2{
-    animation: 0.7s ease-in-out smoothAppear2;
-}
-.unmount2{
-    animation: 0.7s ease-in-out smoothDisappear2;
-}
-//모바일
-@media ( max-width: 1260px ) {
-    .one-img{
-     
-        img{
-          
-          margin-top: 40%;
-        }
-    }
-}
-//모바일
-@media ( max-width: 782px ) {
-    .one-img{
-        position: relative;
-        display: flex;
-        height: 45%;
-        width: 100%;
-        background-color: rgb(228, 228, 228);
-        background-image: url("../img/projectImg4.jpeg");
-        background-size: cover;
-        img{
-            
-            width: 500px;
-            margin: auto;
-    
-        }
-    
-    }
-    .btn-box{
-        
-        height: 100px;
-        width: 100%;
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        bottom: -50px;
-        .btn{
-            width: 50px;
-            height: 15px;
-            background-color: rgb(205, 205, 205);
-            border: solid rgb(255, 255, 255) 2px;
-            margin: 10px;
-            
-        }
-    }
-    .one-info{
-        height: 35%;
-        margin: 0px 0px;
-        width: 100%;
-        color: white;
-        
         .one-number{
-            margin-top: 50px;
-            border-top: solid white;
-            font-size: 500%;
+            margin-top: 10px;
+            //border-top: solid white;
+            font-size: 200%;
             font-weight: 100;
         }
         p{
-            font-size: 300%;
+            font-size: 150%;
              margin: 5px;
         
             font-family: TAEBAEKfont;
         }
         .one-text{
             font-size: 100%;
-            margin-bottom: 0px;
-            margin-left: 10%;
-            margin-right: 10%;
-        }
-        .more{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            button{
-            
-                padding: 10px 40px;
-                font-size: 40%;
-                text-decoration-line:none;
-                color: rgb(168, 168, 168);
-                background-color: white;
-                border: solid white 2px;
-                transition: 0.5s;
-                margin-top: 10px;
-                .more-1{
-                    
-                    font-size: 40%;
-        
-                }
-        
-            }
-        }
+            // margin-bottom: 0px;
+            // margin-left: 10%;
+            // margin-right: 10%;
+            text-align: left;
 
-
-       
-    }
+        }
 }
-@media ( max-width: 500px ) {
-    .one-img{
 
-        img{
-            
-            width:100%;
-            margin: auto;
+.btn-box {
+    z-index: 102;
+    position: absolute;
+    display: flex;
+    top: 50%; /* 세로 중앙 배치 */
+    width: 100%; /* 부모 컨테이너의 전체 너비 */
+    transform: translateY(-50%);
+    pointer-events: none; /* 버튼이 아닌 이미지 클릭 방지 */
+    justify-content: space-between; /* 좌우로 버튼 배치 */
+}
+
+.btn-prev,
+.btn-next {
+    background-color: rgba(205, 205, 205, 0);
+    border: solid rgba(255, 255, 255, 0) 2px;
+    cursor: pointer;
+    pointer-events: auto; /* 버튼 클릭 가능하게 설정 */
+    transition: 0.3s;
+    z-index: 103;
+    margin: 0 20px; /* 이미지와 간격 조정 */
     
-        }
-    
+    /* 애니메이션 추가 */
+    animation: blink-animation 2s infinite alternate; /* 깜빡이는 애니메이션 */
+
+    .material-symbols-outlined {
+        font-size: 100px; /* 아이콘 크기 설정 */
+        color: #0095ff;
+        opacity: 0.8;
+    }
+
+    /* Hover 상태에서 애니메이션을 멈추고 opacity를 1로 설정 */
+    &:hover {
+        opacity: 1;
+        animation: none; /* hover 시 애니메이션을 제거 */
     }
 }
 
-@keyframes smoothAppear2 {
-    from {
-      opacity: 0;
-      transform: translateX(100%);
+/* 깜빡이는 애니메이션 정의 */
+@keyframes blink-animation {
+    0% {
+        opacity: 0;
     }
-    to {
-      opacity: 1;
-      transform: translateX(0);
+    100% {
+        opacity: 1;
     }
 }
-@keyframes smoothDisappear2{
-    from {
-      opacity: 1;
-      transform: translateX(0);
+
+
+.btn-prev {
+    position: absolute;
+    left: 0px; /* 이미지의 왼쪽 바깥으로 버튼 위치 */
+}
+
+.btn-next {
+    position: absolute;
+    right: 0px; /* 이미지의 오른쪽 바깥으로 버튼 위치 */
+}
+.stack {
+    font-size: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; // 뱃지 간의 간격 조절
+    margin-top: 15px;
+}
+.badge {
+    display: inline-block;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #0073e6; // 기본 배경색
+    border-radius: 10px; // 둥근 모서리로 뱃지 스타일
+    text-align: center;
+
+    &:hover {
+        background-color: #005bb5; // 호버 시 색상 변경
     }
-    to {
-      opacity: 0;
-      transform: translateX(50%);
+}
+
+.more {
+    button{
+        margin-top: 10px;
+        display: inline-block;
+        padding: 8px 12px;
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: #fff;
+        background-color: #0073e6; /* 배경색 */
+        border-radius: 10px; /* 둥근 모서리 */
+        text-align: center;
+        cursor: pointer;
+        border: none; /* 버튼 기본 테두리 제거 */
+        transition: background-color 0.3s ease;
     }
+    button:hover{
+        background-color: #005bb5; /* 호버 시 색상 */
+    }
+    button:focus{
+        outline: none; /* 버튼 포커스 시 테두리 제거 */
+    }
+}
+
+
+//모바일
+@media (max-width: 900px) {
+    .first-container {
+        flex-direction: column; /* 세로로 배치 */
+        align-items: center; /* 가운데 정렬 */
+    }
+
+    .one-info {
+        margin: 10px 20px; /* 위쪽 여백을 줄이고, 양쪽 여백을 좁게 */
+        width: 80%; /* 폭을 줄여서 화면에 맞게 표시 */
+        height: auto; /* 높이를 자동으로 설정 */
+        z-index: 101;
+    }
+
+    .one-number {
+        margin: 5px;
+        font-size: 1.5rem; /* 글자 크기 줄이기 */
+    }
+
+    p {
+        font-size: 0.9rem; /* 텍스트 크기 줄이기 */
+        margin: 5px;
+        white-space: nowrap; /* 텍스트가 넘치지 않도록 설정 */
+        overflow: hidden;
+        text-overflow: ellipsis; /* 텍스트가 넘칠 경우 '...' 표시 */
+    }
+
+    .one-text {
+        font-size: 0.9rem; /* 텍스트 크기 줄이기 */
+        margin-top: 10px;
+        text-align: left;
+        white-space: nowrap; /* 텍스트가 넘치지 않도록 설정 */
+        overflow: hidden;
+        text-overflow: ellipsis; /* 텍스트가 넘칠 경우 '...' 표시 */
+    }
+
+    .btn-prev,
+    .btn-next {
+        margin: 0 10px; /* 버튼 간격 줄이기 */
+        .material-symbols-outlined {
+            font-size: 80px; /* 아이콘 크기 줄이기 */
+        }
+    }
+
+    .stack {
+        font-size: 0.8rem; /* 뱃지 크기 줄이기 */
+        gap: 8px; /* 뱃지 간의 간격 좁히기 */
+    }
+
+    .badge {
+        padding: 6px 10px; /* 뱃지 크기 조정 */
+        font-size: 0.8rem; /* 텍스트 크기 줄이기 */
+    }
+    .more {
+        position: relative;  // .more 부모 요소의 위치를 relative로 설정
+    
+        .more-button {
+            position: fixed;  // 화면에 고정
+            bottom: 20px;     // 화면 하단에 20px 여백
+            left: 20px;       // 화면 왼쪽에 20px 여백
+            z-index: 9999;    // 다른 요소보다 위에 나타나도록 설정
+            display: none;    // 기본적으로 숨김 상태
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+ 
+}
+.more button {
+    padding: 6px 10px; /* 버튼 크기 조정 */
+    font-size: 0.8rem; /* 버튼 텍스트 크기 줄이기 */
+    margin: 6px;
 }

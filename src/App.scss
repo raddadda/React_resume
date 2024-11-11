@@ -6,25 +6,25 @@ body{
 
 
 }
-.page-ani{
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    background-color: #ffffff00;
+// .page-ani{
+//     position: fixed;
+//     width: 100vw;
+//     height: 100vh;
+//     background-color: #ffffff00;
     
-    animation: identifier 1s;
-    animation-iteration-count : 1;
+//     animation: identifier 1s;
+//     animation-iteration-count : 1;
     
-}
-@keyframes identifier {
-    0%{
-        background-color: #ffffff;
-        z-index: 1;
+// }
+// @keyframes identifier {
+//     0%{
+//         background-color: #ffffff;
+//         z-index: 1;
         
-    }100%{
-        background-color: #ffffff00;
-    }
-}
+//     }100%{
+//         background-color: #ffffff00;
+//     }
+// }
 .wrap{
 
     // div{
