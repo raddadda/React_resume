@@ -1,10 +1,8 @@
-import React,{useState,useEffect} from "react";
+import React,{useState} from "react";
 import './First.scss';
 import p1 from '../img/project1.png';
 import p2 from '../img/project2.png';
 import p3 from '../img/project3.png';
-import p4 from '../img/project4.png';
-import { IoLogoGithub } from "react-icons/io";
 import ProjectDetails from './ProjectDetails'; 
 const First = (props)=>{
 
