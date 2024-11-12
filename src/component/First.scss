@@ -291,7 +291,7 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
-    // z-index: 1000;
+    z-index: 0;
     height: 900px;
 }
 .one-img{
@@ -403,6 +403,7 @@
     flex-wrap: wrap;
     gap: 10px; // 뱃지 간의 간격 조절
     margin-top: 15px;
+
 }
 .badge {
     display: inline-block;
